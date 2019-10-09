@@ -1,3 +1,7 @@
+
 linters:
-stylelint:
-config: ‘stylelint.config.js’ 
+  csslint: {  }
+files:
+  ignore:
+    - 'bower_components/*'
+    - 'node_modules/*'
