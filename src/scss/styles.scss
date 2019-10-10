@@ -2,3 +2,63 @@
 
 // Bootstrap Sass Imports
 @import "node_modules/bootstrap/scss/bootstrap";
+
+.container {
+  max-width: 1340px;
+}
+
+header {
+  background-color: #f72210;
+  height: 100px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.date-today {
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.subscribe {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  float: right;
+  font-weight: bold;
+}
+
+.subscribe a {
+  text-decoration: none;
+}
+
+.subscribe a:hover {
+  color: inherit;
+}
+
+.sign-in {
+  color: white;
+}
+
+.sub-button {
+  color: #f72210;
+  background-color: white;
+  padding: 5px 5px;
+  margin-left: 10px;
+}
+
+.sub-button i {
+  margin-left: 5px;
+}
+
+.logo {
+  width: 426px;
+  height: 90px;
+  display: block;
+}
+
+.logo path {
+  fill: white;
+}
