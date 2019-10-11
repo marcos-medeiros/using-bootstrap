@@ -7029,7 +7029,7 @@ body {
 header {
   background-color: red;
   height: 100px;
-  font-family: 'Roboto Condensed', sans-serif; }
+  font-family: "Roboto Condensed", sans-serif; }
 
 .date-today {
   display: inline-block;
@@ -7055,9 +7055,16 @@ header {
 .nav-item a {
   text-decoration: none;
   color: black;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-weight: bold;
   font-size: 21px; }
+
+.culture-and-travel a {
+  text-decoration: none; }
+
+.article-tag-culture-travel a {
+  text-decoration: none;
+  padding: 3px 3px; }
 
 .article-link-left-main a:hover {
   color: red;
@@ -7109,8 +7116,8 @@ nav::before {
   display: block;
   width: 22px;
   background-color: red;
-  border-left: 12px solid  white;
-  border-top: 13px solid  red; }
+  border-left: 12px solid white;
+  border-top: 13px solid red; }
 
 .nav-item {
   color: #adbcd3;
@@ -7129,20 +7136,19 @@ main {
 
 .main-columns-titles {
   color: #a0a0a0;
-  margin-left: 20px;
   font: bold 16px/16px "Roboto Condensed", sans-serif;
   text-transform: uppercase;
   margin-bottom: 10px;
-  margin-top: 20px; }
+  margin-top: 20px;
+  margin-left: 5px; }
 
 .left-main {
   height: 2540px; }
 
-.left-main-article {
-  margin-left: 20px; }
+main div {
+  margin-left: 5px; }
 
 .center-main {
-  background-color: blue;
   height: 2540px; }
 
 .right-main {
@@ -7151,7 +7157,8 @@ main {
 
 .article-image {
   position: relative;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  margin-left: 0; }
 
 .article-image img {
   width: 100%; }
@@ -7173,17 +7180,71 @@ main {
   margin-bottom: 10px;
   color: black;
   font-weight: bold;
-  width: 340px; }
+  width: 100%; }
 
 .article-summary {
   color: #333;
   font-family: Arial, Helvetica, sans-serif;
   margin-bottom: 20px;
-  width: 90%; }
+  width: 90%;
+  font-size: 15px; }
 
 .article-link-left-main {
-  margin-left: 20px;
+  padding: 10px;
   width: 340px;
   border-top: 1px solid #d9d9d9;
   border-bottom: 1px solid #d9d9d9;
   margin-bottom: 20px; }
+
+.flex-item {
+  width: 45%; }
+
+.culture-and-travel {
+  background-color: #f4f5f7; }
+
+.culture-and-travel div {
+  margin-left: 0; }
+
+.culture-and-travel .main-columns-titles {
+  margin-left: 10px;
+  color: #333; }
+
+.culture-and-travel .title-link {
+  font-family: 'Lora', serif;
+  font-weight: normal;
+  font-size: 20px; }
+
+.paragraph-wrapper {
+  margin-left: 10px !important; }
+
+.culture-and-travel .article-summary {
+  margin-bottom: 5px;
+  font-size: 15px; }
+
+.article-tag-culture-travel {
+  font: 300 13px/20px "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  background-color: #c2d4d7;
+  display: inline-block; }
+
+.article-tag-culture-travel a:hover {
+  background-color: #272727;
+  color: #c2d4d7; }
+
+.story-info .title-link {
+  font-size: 15px;
+  margin-bottom: 0; }
+
+.story-info .article-title {
+  margin-bottom: 10px; }
+
+.story-info .article-summary {
+  font-size: 14px; }
+
+.clearfix {
+  border-top: 1px solid #ddd;
+  padding-top: 15px; }
+
+.clearfix img {
+  float: left;
+  margin-bottom: 10px;
+  margin-right: 15px; }
