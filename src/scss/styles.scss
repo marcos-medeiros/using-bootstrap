@@ -3,12 +3,16 @@
 // Bootstrap Sass Imports
 @import "node_modules/bootstrap/scss/bootstrap";
 
+body {
+  background-color: #f4f5f6;
+}
+
 .container {
   max-width: 1340px;
 }
 
 header {
-  background-color: #f72210;
+  background-color: red;
   height: 100px;
   font-family: 'Roboto Condensed', sans-serif;
 }
@@ -34,6 +38,10 @@ header {
   text-decoration: none;
 }
 
+.article-link-left-main a {
+  font-size: 17px;
+}
+
 .nav-item a {
   text-decoration: none;
   color: black;
@@ -42,8 +50,22 @@ header {
   font-size: 21px;
 }
 
+.article-link-left-main a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.nav-item a:hover {
+  color: red;
+}
+
 .subscribe a:hover {
   color: inherit;
+}
+
+.article-title a:hover {
+  text-decoration: underline red;
+  color: black;
 }
 
 .sign-in {
@@ -51,7 +73,7 @@ header {
 }
 
 .sub-button {
-  color: #f72210;
+  color: red;
   background-color: white;
   padding: 5px 5px;
   margin-left: 10px;
@@ -73,6 +95,7 @@ header {
 
 nav {
   position: relative;
+  background-color: white;
 }
 
 .nav {
@@ -87,9 +110,9 @@ nav::before {
   content: "";
   display: block;
   width: 22px;
-  background-color: #f72210;
+  background-color: red;
   border-left: 12px solid  white;
-  border-top: 13px solid  #f72210;
+  border-top: 13px solid  red;
 }
 
 .nav-item {
@@ -101,11 +124,83 @@ nav::before {
   padding-right: 15px;
 }
 
-.nav-item a:hover {
-  color: #f72210;
-}
-
 .last-nav-item {
   border-right: none;
   padding-top: 5px;
+}
+
+main {
+  background-color: white;
+}
+
+.main-columns-titles {
+  color: #a0a0a0;
+  margin-left: 20px;
+  font: bold 16px/16px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.left-main {
+  height: 2540px;
+}
+
+.left-main-article {
+  margin-left: 20px;
+}
+
+.center-main {
+  background-color: blue;
+  height: 2540px;
+}
+
+.right-main {
+  background-color: green;
+  height: 2540px;
+}
+
+.article-image {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.article-image img {
+  width: 100%;
+}
+
+.article-category-tag {
+  position: absolute;
+  bottom: -16px;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: red;
+  font: bold 17px/16px "Roboto Condensed", sans-serif;
+  padding: 8.5px 15px;
+  text-transform: uppercase;
+}
+
+.title-link {
+  font-size: 22px;
+  line-height: 24px;
+  font-family: "Roboto Condensed", sans-serif;
+  margin-bottom: 10px;
+  color: black;
+  font-weight: bold;
+  width: 340px;
+}
+
+.article-summary {
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+  width: 90%;
+}
+
+.article-link-left-main {
+  margin-left: 20px;
+  width: 340px;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+  margin-bottom: 20px;
 }
