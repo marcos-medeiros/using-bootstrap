@@ -8,6 +8,7 @@ body {
 
 .container {
   max-width: 1340px;
+  background-color: white;
 }
 
 header {
@@ -56,6 +57,17 @@ header {
 .article-tag-culture-travel a {
   text-decoration: none;
   padding: 3px 3px;
+}
+
+.category a {
+  font: bold 16px/26px "Roboto Condensed", sans-serif;
+  color: red;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.category a:hover {
+  text-decoration: none;
 }
 
 .article-link-left-main a:hover {
@@ -151,7 +163,7 @@ main {
 }
 
 .left-main {
-  height: 3540px;
+  height: auto;
 }
 
 main div {
@@ -159,7 +171,7 @@ main div {
 }
 
 .center-main {
-  height: 2540px;
+  height: auto;
 }
 
 .right-main {
@@ -378,4 +390,68 @@ main div {
 .newsletter-preferences:hover {
   text-decoration: none;
   color: #333;
+}
+
+.section-title {
+  font: bold 19px/19px "Roboto Condensed", sans-serif;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #d9d9d9;
+  padding-bottom: 8px;
+}
+
+.section-title p {
+  padding-top: 10px;
+}
+
+.section-item {
+  width: 23.5%;
+}
+
+.last-cover::after {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 14px;
+  margin-left: 10px;
+  background: url(https://g.newsweek.com/www/images/icon-arrow-right-black.svg) center/contain no-repeat;
+}
+
+.last-cover {
+  display: block;
+  background-color: #f4f5f6;
+  color: black;
+  text-align: center;
+  margin-bottom: 0;
+  padding: 10px 10px 10px 12px;
+  font: bold 18px/18px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+}
+
+.last-cover:hover {
+  background-color: #dbdcdd;
+  text-decoration: none !important;
+}
+
+.section-item .article-image {
+  margin-bottom: 0;
+}
+
+.category span {
+  padding: 0 7px;
+  background-color: red;
+  color: white;
+  margin-right: 7px;
+  display: inline-block;
+  font: bold 16px/26px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+}
+
+.category {
+  margin: 10px 0;
+}
+
+.in-the-magazine-img {
+  height: 311px;
+  width: 411px;
 }
