@@ -7396,3 +7396,6 @@ main div {
 .in-the-magazine-img {
   height: 311px;
   width: 411px; }
+
+.editors-pick .article-image {
+  margin-bottom: 10px; }
