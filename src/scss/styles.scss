@@ -316,3 +316,66 @@ main div {
   width: 135px;
   height: 90px;
 }
+
+.sign-up-newsletter-container {
+  max-width: 300px;
+  margin: 0 auto 30px;
+  border: 1px solid #e5e5e5;
+  background-color: #f4f5f6;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.sign-up-newsletter-container p {
+  font: bold 19px/19px "Roboto Condensed", sans-serif;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 70%;
+}
+
+.icon-n {
+  flex: none;
+  display: inline-block;
+  width: 29px;
+  height: 28px;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+  margin-right: 10px;
+  margin-bottom: 4px;
+}
+
+.newsletter-button {
+  display: inline-block;
+  padding: 10px 10px 10px 12px;
+  color: white;
+  font: bold 18px/18px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  background-color: #666;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.newsletter-button::after {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 14px;
+  margin-left: 10px;
+  background: url(https://g.newsweek.com/www/images/icon-arrow-right.svg) center/contain no-repeat;
+}
+
+.newsletter-button:hover {
+  text-decoration: none;
+  background-color: #999;
+  color: white;
+}
+
+.newsletter-preferences {
+  color: #333;
+  font: bold 13px/15px "Roboto Condensed", sans-serif;
+}
+
+.newsletter-preferences:hover {
+  text-decoration: none;
+  color: #333;
+}
