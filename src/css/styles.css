@@ -7073,6 +7073,18 @@ header {
   text-transform: uppercase;
   text-decoration: none; }
 
+.category-title {
+  font: bold 22px/16px "Roboto Condensed", sans-serif;
+  color: red;
+  border-top: 1px solid #d9d9d9;
+  display: block;
+  padding-top: 30px;
+  margin-bottom: 10px; }
+
+.category-title:hover {
+  text-decoration: none;
+  color: red; }
+
 .category a:hover {
   text-decoration: none; }
 
@@ -7418,3 +7430,9 @@ main div {
   background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
   color: #e9212e;
   margin-bottom: 0; }
+
+.category-main-item {
+  width: 48%; }
+
+.category-right-articles .clearfix:first-of-type {
+  padding-top: 0; }
