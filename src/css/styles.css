@@ -7253,7 +7253,8 @@ main div {
   float: right;
   width: 75%; }
 
-.opinion-info .title-link {
+.opinion-info .title-link,
+.latest-news-info .title-link {
   margin-bottom: 0;
   font: bold 15px/21px "Roboto Condensed", sans-serif; }
 
@@ -7265,9 +7266,14 @@ main div {
   text-transform: uppercase;
   font: bold 14px/21px "Roboto Condensed", sans-serif; }
 
-.first-opinion {
+.first-article {
   border-top: none; }
 
-.opinion-info a:hover {
+.opinion-info a:hover,
+.latest-news-info a:hover {
   color: red;
   text-decoration: none; }
+
+.right-main-article {
+  width: 135px;
+  height: 90px; }
