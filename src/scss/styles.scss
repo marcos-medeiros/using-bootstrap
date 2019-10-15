@@ -34,6 +34,11 @@ header {
   font-weight: bold;
 }
 
+footer a {
+  text-decoration: none;
+  color: #666;
+}
+
 .subscribe a {
   text-decoration: none;
 }
@@ -73,6 +78,11 @@ header {
   display: block;
   padding-top: 30px;
   margin-bottom: 10px;
+}
+
+footer a:hover {
+  color: black;
+  text-decoration: none;
 }
 
 .category-title:hover {
@@ -258,7 +268,7 @@ main div {
 }
 
 .culture-and-travel .title-link {
-  font-family: 'Lora', serif;
+  font-family: "Lora", serif;
   font-weight: normal;
   font-size: 20px;
 }
@@ -490,7 +500,7 @@ main div {
   line-height: 46px;
   text-indent: 5px;
   text-align: center;
-  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
+  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0 / contain no-repeat;
   color: #e9212e;
   margin-bottom: 0;
 }
@@ -506,7 +516,7 @@ main div {
 .subscribe-container {
   background-color: #f4f5f6;
   width: 100%;
-  height: 300px;
+  height: 307px;
 }
 
 .subscribe-covers {
@@ -612,4 +622,82 @@ main div {
 .newsletter-container {
   border: 1px solid #d9d9d9;
   height: 250px;
+}
+
+footer {
+  margin-top: 50px;
+  border-top: 1px solid #d9d9d9;
+  padding-top: 30px;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+
+footer svg {
+  width: 236px;
+  fill: red;
+}
+
+.footer-top {
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.logo-copyrights {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.copyright {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #666;
+  margin-bottom: 0 !important;
+}
+
+.social {
+  float: right;
+}
+
+.social li {
+  font-size: 1.5rem;
+  margin-left: 10px;
+}
+
+.right-footer-links {
+  float: right;
+  width: 40%;
+  padding-left: 100px;
+}
+
+.right-footer-links label {
+  float: left;
+}
+
+.right-footer-links ul {
+  float: right;
+}
+
+.left-footer-links {
+  float: left;
+  width: 60%;
+}
+
+.footer-links {
+  height: 100px;
+  margin-top: 20px;
+}
+
+.footer-links li {
+  border-right: 1px solid #d9d9d9;
+  border-right-color: rgb(217, 217, 217);
+  border-right-style: solid;
+  border-right-width: 1px;
+  padding-right: 10px;
+  margin-right: 10px;
 }
