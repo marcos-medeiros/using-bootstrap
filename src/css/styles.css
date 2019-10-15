@@ -7178,9 +7178,6 @@ main {
 main div {
   margin-left: 5px; }
 
-.center-main {
-  height: auto; }
-
 .right-main {
   height: 2540px;
   margin-right: 20px; }
@@ -7448,20 +7445,20 @@ main div {
 .subscribe-container {
   background-color: #f4f5f6;
   width: 100%;
-  height: 307px; }
+  height: 300px; }
 
 .subscribe-covers {
   position: relative; }
 
 .cover-1 {
   position: absolute;
-  top: 25px;
+  top: 85px;
   left: 45px;
   width: 0; }
 
 .cover-2 {
   position: absolute;
-  top: 35px;
+  top: 95px;
   left: 125px;
   width: 0; }
 
@@ -7491,9 +7488,13 @@ main div {
   text-transform: uppercase;
   padding: 10px 5px; }
 
+.subscribe-newsletter {
+  border-top: 1px solid #d9d9d9; }
+
 .subscribe-newsletter .category-title {
   text-transform: uppercase;
-  font-size: 15px; }
+  font-size: 15px;
+  border-top: none; }
 
 #newsletter-title {
   border-top: none;
@@ -7501,11 +7502,11 @@ main div {
 
 .right-newsletter {
   width: 50%;
-  height: 250px; }
+  height: 300px; }
 
 .left-newsletter {
   width: 50%;
-  height: 250px; }
+  height: 300px; }
 
 .left-newsletter img {
   width: 100%;
@@ -7536,7 +7537,7 @@ main div {
 
 .newsletter-container {
   border: 1px solid #d9d9d9;
-  height: 250px; }
+  height: 300px; }
 
 footer {
   margin-top: 50px;
