@@ -17,6 +17,13 @@ header {
   font-family: "Roboto Condensed", sans-serif;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
 .date-today {
   display: inline-block;
   font-size: 16px;
