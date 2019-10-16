@@ -147,18 +147,6 @@ nav {
   border-bottom: 1px solid #d9d9d9;
 }
 
-nav::before {
-  position: absolute;
-  top: 0;
-  right: 0;
-  content: "";
-  display: block;
-  width: 22px;
-  background-color: red;
-  border-left: 12px solid white;
-  border-top: 13px solid red;
-}
-
 .nav-item {
   color: #adbcd3;
   font-family: Arial, Helvetica, sans-serif;
@@ -701,4 +689,9 @@ footer svg {
   border-right-width: 1px;
   padding-right: 10px;
   margin-right: 10px;
+}
+
+.search i {
+  margin-left: 10px;
+  color: black;
 }
