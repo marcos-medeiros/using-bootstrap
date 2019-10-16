@@ -17,19 +17,28 @@ header {
   font-family: "Roboto Condensed", sans-serif;
 }
 
-.sticky {
+.sticky-header {
+  display: none;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 1;
+  background-color: red;
+  height: 50px;
 }
 
-.date-today {
-  display: inline-block;
-  font-size: 16px;
-  margin-left: 20px;
-  margin-bottom: 20px;
-  color: white;
+.logo {
+  width: 426px;
+  height: 90px;
+  display: block;
+}
+
+.sticky-header .logo {
+  width: 132px;
+  height: 20px;
+  margin-top: 10px;
+  float: left;
+  padding-left: 10px;
 }
 
 .subscribe {
@@ -39,6 +48,25 @@ header {
   margin-right: 10px;
   float: right;
   font-weight: bold;
+}
+
+.sticky-header .subscribe {
+  margin-top: 10px;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  float: right;
+  font-weight: bold;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.date-today {
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  color: white;
 }
 
 footer a {
@@ -132,12 +160,6 @@ footer a:hover {
 
 .sub-button i {
   margin-left: 5px;
-}
-
-.logo {
-  width: 426px;
-  height: 90px;
-  display: block;
 }
 
 .logo path {
@@ -711,6 +733,15 @@ footer svg {
 
 .actual-cover-img {
   height: 280px;
+}
+
+.nav-menu {
+  display: block;
+  text-decoration: none;
+  color: #fb9a94;
+  font-size: 22px;
+  padding-left: 15px;
+  float: right;
 }
 
 @import "_tablet.scss";

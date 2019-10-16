@@ -1,14 +1,13 @@
 window.onscroll = function() {myFunction()};
 
-var header = document.getElementById("myHeader");
-
-var sticky = header.offsetTop;
-
 function myFunction() {
-  console.log('page offest ' , window.pageYOffset , 'sticky ' , sticky);
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
+  var header = document.getElementById("fixedHeader");
+
+  var sticky = header.offsetTop;
+  console.log('page offset ' , window.pageYOffset , 'sticky ' , sticky);
+  if (window.pageYOffset > 60) {
+    header.style.display = 'block';
   } else {
-    header.classList.remove("sticky");
+    header.style.display = 'none';
   }
 } 
