@@ -183,7 +183,6 @@ main div {
 }
 
 .right-main {
-  height: 2540px;
   margin-right: 20px;
 }
 
@@ -608,8 +607,11 @@ main div {
   margin-left: 30px;
 }
 
-.newsletter-container {
+.subscribe-newsletter .category-right-articles {
   border: 1px solid #d9d9d9;
+}
+
+.newsletter-container {
   height: 300px;
 }
 
@@ -695,3 +697,10 @@ footer svg {
   margin-left: 10px;
   color: black;
 }
+
+.menu {
+  display: none;
+}
+
+@import "_tablet.scss";
+@import "_mobile.scss";

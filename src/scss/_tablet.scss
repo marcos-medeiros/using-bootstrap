@@ -1,0 +1,59 @@
+@media (min-width: 720px) and (max-width: 1140px) {
+  nav {
+    display: none;
+  }
+
+  header {
+    height: 50px;
+  }
+
+  header .col:first-of-type {
+    display: none;
+  }
+
+  .logo {
+    width: 132px;
+    height: 20px;
+    margin-bottom: 30px;
+    float: left;
+  }
+
+  .subscribe {
+    margin-top: 10px;
+  }
+
+  .menu {
+    display: block;
+    text-decoration: none;
+    color: #fb9a94;
+    font-size: 22px;
+    padding-left: 15px;
+    float: right;
+  }
+
+  .opinion-info {
+    width: 90%;
+  }
+
+  .editors-pick .section-item {
+    width: 48%;
+  }
+
+  .left-newsletter {
+    width: 20%;
+    height: 200px;
+  }
+
+  .right-newsletter {
+    width: 80%;
+    height: 200px;
+  }
+
+  #covers-div {
+    width: 30%;
+  }
+
+  .info-subscribe {
+    width: 55%;
+  }
+}
