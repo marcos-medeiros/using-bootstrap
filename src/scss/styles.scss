@@ -1,7 +1,3 @@
-// Variable Overrides
-// Bootstrap Sass Imports
-@import "node_modules/bootstrap/scss/bootstrap";
-
 body {
   background-color: #f4f5f6;
 }
@@ -387,7 +383,9 @@ main div {
   display: inline-block;
   width: 29px;
   height: 28px;
-  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+  background:
+    url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
+    no-repeat #f72210;
   margin-right: 10px;
   margin-bottom: 4px;
 }
@@ -409,7 +407,9 @@ main div {
   width: 8px;
   height: 14px;
   margin-left: 10px;
-  background: url(https://g.newsweek.com/www/images/icon-arrow-right.svg) center/contain no-repeat;
+  background:
+    url(https://g.newsweek.com/www/images/icon-arrow-right.svg)
+    center/contain no-repeat;
 }
 
 .newsletter-button:hover {
@@ -450,7 +450,9 @@ main div {
   width: 8px;
   height: 14px;
   margin-left: 10px;
-  background: url(https://g.newsweek.com/www/images/icon-arrow-right-black.svg) center/contain no-repeat;
+  background:
+    url(https://g.newsweek.com/www/images/icon-arrow-right-black.svg)
+    center/contain no-repeat;
 }
 
 .last-cover {
@@ -512,7 +514,9 @@ main div {
   line-height: 46px;
   text-indent: 5px;
   text-align: center;
-  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0 / contain no-repeat;
+  background:
+    url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png)
+    0 0 / contain no-repeat;
   color: #e9212e;
   margin-bottom: 0;
 }

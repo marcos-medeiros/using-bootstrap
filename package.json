@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "fix-code": "prettier-eslint --write 'src/**/*.{js,jsx}' ",
-    "fix-styles": "prettier-stylelint --write 'src/**/*.{css,scss}' "  
+    "fix-styles": "prettier-stylelint --write 'src/**/*.{css,scss}' "
   },
   "keywords": [],
   "author": "",
