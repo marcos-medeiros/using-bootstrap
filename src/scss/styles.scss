@@ -459,8 +459,8 @@ main div {
 }
 
 .in-the-magazine-img {
-  height: 311px;
-  width: 411px;
+  vertical-align: middle;
+  height: auto;
 }
 
 .editors-pick .article-image {
@@ -700,6 +700,10 @@ footer svg {
 
 .menu {
   display: none;
+}
+
+.actual-cover-img {
+  height: 280px;
 }
 
 @import "_tablet.scss";

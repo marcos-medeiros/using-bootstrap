@@ -5,6 +5,9 @@
 
   header {
     height: 50px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
   }
 
   header .col:first-of-type {
