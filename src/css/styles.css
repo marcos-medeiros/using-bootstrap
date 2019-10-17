@@ -1027,4 +1027,12 @@ footer svg {
   header .logo {
     width: 85vw;
   }
+
+  .cover-1 {
+    left: 25px;
+  }
+
+  .cover-2 {
+    left: 105px;
+  }
 }
