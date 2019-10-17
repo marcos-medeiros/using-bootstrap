@@ -701,6 +701,8 @@ footer svg {
 
 .right-footer-links label {
   float: left;
+  margin-top: 6px;
+  margin-right: 15px;
 }
 
 .right-footer-links ul {
@@ -746,6 +748,12 @@ footer svg {
   font-size: 22px;
   padding-left: 15px;
   float: right;
+}
+
+.opinion-img {
+  position: absolute;
+  width: "63px";
+  height: "63px";
 }
 
 @media (min-width: 720px) and (max-width: 1140px) {
