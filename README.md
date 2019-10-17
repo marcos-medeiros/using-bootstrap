@@ -1,4 +1,4 @@
-# PROJECT NAME
+# Using Bootstrap
 
 The Using Bootstrap project is aimed at applying the knowledge of the Bootstrap framework to create a clone of the Newsweek webpage.
 
