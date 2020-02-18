@@ -1,8 +1,10 @@
 # Using Bootstrap
 
+![Newseek's clone](/../screenshot/page.png?raw=true "Newsweek's clone")
+
 The Using Bootstrap project is aimed at applying the knowledge of the Bootstrap framework to create a clone of the Newsweek webpage.
 
-[Click to go to THE REFERENCE PAGE](https://newsweek.com)
+[Click to go to Newsweek's original home page](https://newsweek.com)
 
 ## Author
 
